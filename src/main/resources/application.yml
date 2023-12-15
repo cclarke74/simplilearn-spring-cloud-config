@@ -1,0 +1,19 @@
+
+# Server Port
+server.port: 8888
+  
+spring:
+# Server Name
+  application.name: config-server
+# Config Server
+  cloud.config.server.git:
+    uri: file:///Users/clairclarke/Downloads/simplilearn-spring-cloud-repo
+    default-label: main
+      
+# Enable Actuator
+management.endpoints.web.exposure.include: "*"
+
+# Eureka Server URL
+eureka.client:
+  serviceUrl:
+    defaultZone: http://localhost:8761/eureka/
