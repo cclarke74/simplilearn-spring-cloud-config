@@ -7,7 +7,7 @@ spring:
   application.name: config-server
 # Config Server
   cloud.config.server.git:
-    uri: file:///Users/clairclarke/Downloads/simplilearn-spring-cloud-repo
+    uri: file:///Users/clairclarke/workspace-simplilearn-java/simplilearn-01-spring-cloud-repo
     default-label: main
       
 # Enable Actuator
